@@ -1,0 +1,2 @@
+android.app.Application
+com.companyname.x0712_Ders3_List

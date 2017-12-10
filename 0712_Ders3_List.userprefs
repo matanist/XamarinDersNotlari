@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{C6601723-1541-4207-83C1-9B7295660347}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="0712_Ders3_List/0712_Ders3_ListPage.xaml" Line="25" Column="1" />
+      <File FileName="0712_Ders3_List/0712_Ders3_ListPage.xaml.cs" Line="30" Column="28" />
+      <File FileName="0712_Ders3_List/CreatePerson.xaml" Line="16" Column="1" />
+      <File FileName="0712_Ders3_List/CreatePerson.xaml.cs" Line="15" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="25" Column="1" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.0712__Ders3__List.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.ItemProperties.0712__Ders3__List.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.DCF58EAF-0617-40A9-A1CD-9A4421836335">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.0712__Ders3__List.iOS>
+</Properties>

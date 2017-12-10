@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:_Ders3_List" x:Class="_Ders3_List._712_Ders3_ListPage">
+	<ContentPage.Content>
+        <StackLayout>   
+            <ListView x:Name="lstPeople" IsPullToRefreshEnabled="true" Refreshing="Handle_Refreshing">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.ContextActions>
+                            <MenuItem Text="Ekle" Clicked="Handle_Clicked" ></MenuItem>
+                            <MenuItem Text="Düzenle" Clicked="Handle_Clicked1" CommandParameter="{Binding .}" ></MenuItem>
+                            <MenuItem Text="Sil" CommandParameter="{Binding .}" Clicked="Handle_Clicked1"></MenuItem>
+                            </ViewCell.ContextActions>
+                            <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding Name}" HorizontalOptions="FillAndExpand"></Label>
+                            <Label Text="{Binding Surname}" HorizontalOptions="FillAndExpand"></Label>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
